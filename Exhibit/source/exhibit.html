@@ -1,0 +1,117 @@
+<!doctype HTML>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="exhibit.css">
+  </head>
+
+  <body>
+    <header>
+		<div class="title">
+			<div class="subtitle">
+				jan shrem and maria
+				<span class="name">manetti shrem museum</span>
+				of art
+			</div>
+			<div class="buttons">
+				<button>Home</button>
+				<span class="vi_line"></span>
+				<button>About</button>
+				<span class="vi_line"></span>
+				<button>Contract</button>
+			</div>
+		</div>
+
+		<div class="banner">
+			<img src="../assets/corridorInstallation.jpg">
+			<div class="subtitle">
+				<h1 class="first">Bruce Nauman</h1>
+				<h3 class="second">Blue and Yellow Corridor</h3>
+			</div>
+		</div>
+
+	</header>
+
+    <main>
+		<div class="information_1">
+			<img src="../assets/bruceSketch.jpg">
+			<div class="info_block_1">
+				<div class="title">
+					<p class="sub_title">
+						Extended through April 14th <br>
+						<span> Guest Curator: Ted Mann </span>
+					</p>
+				</div>
+				<div class="hi_line"></div>
+				<p class="content">
+					Coinciding with the opening of Bruce Nauman’s (MFA ’66, UC
+					Davis) retrospective at The Museum of Modern Art, New York,
+					this exhibition features the first realization of a
+					participatory environment Nauman conceived in 1970. The work
+					is a narrow passageway that wraps around an existing room,
+					combining colored fluorescent light and closed-circuit video
+					to manipulate the viewer’s perceptual experience. An adjacent
+					gallery includes artworks that situate the corridor within the
+					artist’s career.
+				</p>
+				<button class="read_more" onclick="disappear('read_more', 'read_less')" id="read_more">Read more</button>
+			</div>
+		</div>
+
+		<div class="read_less" id="read_less">
+			<img src="../assets/bruceInGreenCorridor.jpg">
+			<p>
+				Few living artists have done as much to expand the boundaries
+				of art since 1960 as Bruce Nauman. During the mid-late 1960s -
+				beginning with his time as a graduate student in the UC Davis
+				studio art program, where he received his MA in 1966 - Nauman
+				was at the forefront of a generation of artists that placed
+				process and activity over static, predetermined forms, and
+				that took up language and the body as materials. Unbound by
+				traditional divisions of medium, Nauman has moved freely
+				between sculpture, performance, film, video, photography,
+				drawing, printmaking, and large-scale installation.
+				<br><br>
+				This exhibition coincides with a major Nauman retrospective,
+				co-organized by The Museum of Modern Art (MoMA) and the
+				Schaulager Basel, the artist's first in over twenty
+				years. While the retrospective provides an opportunity to
+				survey the full breadth of Nauman's work, the present
+				exhibition at the Manetti Shrem Museum focuses on a single,
+				exceptional artwork: a large-scale participatory environment
+				from 1970-71. Between 1969 and 1976, Nauman designed some
+				forty corridors, rooms, and other architectural installations.
+				The majority of these installations have been built for
+				exhibition on at least one occasion, but Blue and Yellow
+				Corridor is one of a handful that have remained on paper, in
+				the form of drawings by the artist. Although Nauman originally
+				developed the concept for this particular work in three
+				drawings of 1970-1971, this exhibition represents the first
+				time that the installation has actually been realized.
+			</p>
+			<button onclick="disappear('read_less', 'read_more')">Read less</button>
+		</div>
+    </main>
+
+  	<footer>
+		<div class="left">
+			<span class="subtitle">Manetti Shrem Museum</span>
+			<span class="content">254 Old Davis Rd.</span>
+			<span class="content">Davis, CA 95616</span>
+		</div>
+		<div class="right">
+			<span class="subtitle">Hours</span>
+			<span class="content">Tuesday, Wednesday and Friday: Noon-6pm</span>
+			<span class="content">Thursday: Noon-9pm</span>
+			<span class="content">Saturday-Sunday: 11am-5pm</span>
+			<span class="content">Monday: Closed</span>
+		</div>
+	</footer>
+
+	<script src="actions.js"> </script>
+  </body>
+</html>
+

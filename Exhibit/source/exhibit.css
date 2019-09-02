@@ -1,0 +1,151 @@
+
+body {
+    min-height: 100vh;  /* needed to make sure body fills up window */
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial;
+    color: darkslateblue;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header .subtitle {
+    padding-top: 25px;
+}
+header .subtitle .name {
+    font-weight: bold;
+    color: firebrick;
+}
+header .buttons {
+    flex: 0 1 auto;
+}
+header .buttons button {
+    padding: 25px;
+    border: none;
+    background: none;
+
+    font-size: x-large;
+}
+.vi_line {
+    border-left: 3px solid black;
+}
+
+header .banner {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(249,172,120);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header .banner img {
+    flex: 0 0 auto;
+
+    float: left;
+    max-width: 30%;
+    max-height: 40%;
+
+    padding-right: 45px;
+}
+header .banner .subtitle {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+header .banner .subtitle h1 {
+    margin: 0;
+}
+header .banner .subtitle h3 {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 62px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: large;
+
+    flex: 1 0 auto;
+}
+
+main .information_1 {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-left: 65px;
+    margin-right: 65px;
+}
+main .information_1 img {
+    max-width: 50%;
+    max-height: 50%;
+}
+main .information_1 .info_block_1 {
+    flex: 0 1 auto;
+    margin: 50px;
+}
+main .information_1 .title {
+    font-size: xx-large;
+    color: firebrick;
+}
+main .information_1 .sub_title {
+    font-weight: bold;
+}
+main .information_1 p span {
+    font-weight: lighter;
+}
+main .information_1 .content {
+}
+.hi_line {
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+}
+
+#read_more {
+    padding: 25px;
+    border: none;
+    background: none;
+
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+#read_less img {
+    float: left;
+}
+#read_less button {
+    padding: 25px;
+    border: none;
+    background: none;
+
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.read_less {
+    display: none;
+}
+
+
+footer {}
+
+
